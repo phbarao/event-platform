@@ -1,8 +1,8 @@
-import './styles/global.css';
+import { BrowserRouter } from 'react-router-dom';
+import { ApolloProvider } from '@apollo/client';
 import { Router } from './Router';
 import { client } from './lib/apollo';
-import { ApolloProvider } from '@apollo/client';
-import { BrowserRouter } from 'react-router-dom';
+import './styles/global.css';
 
 function App() {
   return (
